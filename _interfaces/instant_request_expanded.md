@@ -5,9 +5,9 @@
   feature_sets:
     - name: Features
       features:
-        - User share on Facebook or Twitter
-        - See “More Info” from Rovi (exact info negotiable)
-        - Buy link for Rovi
+        - Album art
+        - 30-second song clips
+        - Rovi Data, including, Artist images, Biography, Twitter handle database, Related artists, Album moods (i.e. "bittersweet," "cathartic," "fun) and themes (i.e. "family gatherings," "hanging out"), Release years, Buy link for Rovi (exact data negotiable)
         - Target to iHeartRadio search results for artist name (hidden on non-iHR stations)
 
   services: 
@@ -23,6 +23,6 @@
 
   analysis: "Because there is so much meta content for each song (related songs, suggest a song, twitter info, facebook info, buy link, iHR link, etc.), I think that it is wise to bury the majority of this content behind a click similar to the current product. However, exposing this content with an accordian menu creates an experience that is overloaded with content and makes it difficult to focus on the content that you have just uncovered. Because the user has indicated an interest in this individual song or artist, I recommend giving them a view that removes all other data from the frame.<br><br> 
 
-  Using a hierarchical structure similar to the new Google Material Design specs might be an effective way to do this. In this way, we can show a new page with a larger area for the artist/song in question with related content beneath. Another benefit of this is that we can easily expose new actions on this screen without creating too much clutter."
+  Using a hierarchical structure similar to the new Google Material Design specs might be an effective way to do this. In this way, we can show a new page with a larger area for the artist/song in question with related content beneath. Another benefit of this is that we can easily expose new actions (Including creating an iHR station) on this screen without creating too much clutter."
 ---
 
