@@ -31,7 +31,7 @@
       desc: Facebook adds various content types to their post stream, like this 'People You May Know' module. This technique is useful both visually and in terms of user engagement. A module that may have gotten little attention in another position might get much higher click through rates when associated with the content that a user is already consuming.
 
 
-  analysis: "Similar to voting session, all 3 of these features mimics normal song requests. As per our previous discussion, I would advise moving them all into the request list with a small flag to indicate the difference in content type. I would also recommend removing the play scrubber in favor of consistency with other songs.<br><br>
+  analysis: "Similar to voting session, all 3 of these features mimics normal song requests. As per our previous discussion, I would advise moving them all into the request list with a small flag or icon to indicate the difference in content type. I would also recommend removing the play scrubber in favor of consistency with other songs.<br><br>
   
   The only new action in these screens is to submit local music for review. The above Facebook example is one way of elegantly exposing alternative content to users. The 'Upload Music' button could appear amongst the request list, which can help to break up the visual monotony of repeated content, as well as grab users attention. Of course, there can always be an action to dismiss it for users who are not musicians. Once dismissed, we can happily bury the feature knowing that it has at least been given its proper due.<br><br>
   

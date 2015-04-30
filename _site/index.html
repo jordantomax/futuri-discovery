@@ -37,6 +37,13 @@
     
 
     <li>
+  <a href="#filtering">Filtering</a>
+</li>
+
+    
+    
+
+    <li>
   <a href="#instant_request_expanded">Instant Request Expanded</a>
 </li>
 
@@ -111,9 +118,11 @@
   <div class="l-tile-wrap mod-interface-section">
     <div class="l-tile-2">
       <div class="l-tile-content no-pad">
-        <div class="mod-interface-img-wrap">
-          <img src="assets/img/product-screenshots/ldr1-instant-requests.png" />
-        </div>
+        
+          <div class="mod-interface-img-wrap">
+            <img src="assets/img/product-screenshots/ldr1-instant-requests.png" />
+          </div>
+        
       </div>
     </div>
 
@@ -128,15 +137,7 @@
           <ul class="type-secondary type-list">
             
             <li>
-            Sorting by random, number of spins, recently played
-            </li>
-            
-            <li>
             Search for songs and suggest them if not found
-            </li>
-            
-            <li>
-            Ability to mark songs from the stations list to buy.
             </li>
             
           </ul>
@@ -193,46 +194,6 @@
   <div class="l-tile-2">
     <div class="l-tile-content">
       <div class="mod-service-img-wrap s2">
-        <img src="assets/img/product-screenshots/grooveshark-filters.png" />
-      </div>
-    </div>
-  </div>
-  <div class="l-tile-2">
-    <div class="l-tile-content">
-      <header class="s2">
-        <h4 class="type-strong">Grooveshark</h4>
-        <div>Sorting</div>
-      </header>
-      <p class="type-secondary no-mar">A simple, but elegant solution to sorting a list</p>
-    </div>
-  </div>
-</div>
-
-        
-        <div class="l-tile-wrap">
-  <div class="l-tile-2">
-    <div class="l-tile-content">
-      <div class="mod-service-img-wrap s2">
-        <img src="assets/img/product-screenshots/facebook-post.png" />
-      </div>
-    </div>
-  </div>
-  <div class="l-tile-2">
-    <div class="l-tile-content">
-      <header class="s2">
-        <h4 class="type-strong">Facebook</h4>
-        <div>Meta Actions</div>
-      </header>
-      <p class="type-secondary no-mar">Listing out meta actions as plain text links reduces visual friction of each post. Users know where to find actions, but can easily scan posts.</p>
-    </div>
-  </div>
-</div>
-
-        
-        <div class="l-tile-wrap">
-  <div class="l-tile-2">
-    <div class="l-tile-content">
-      <div class="mod-service-img-wrap s2">
         <img src="assets/img/product-screenshots/reddit-post.png" />
       </div>
     </div>
@@ -269,6 +230,26 @@
 </div>
 
         
+        <div class="l-tile-wrap">
+  <div class="l-tile-2">
+    <div class="l-tile-content">
+      <div class="mod-service-img-wrap s2">
+        <img src="assets/img/product-screenshots/facebook-post.png" />
+      </div>
+    </div>
+  </div>
+  <div class="l-tile-2">
+    <div class="l-tile-content">
+      <header class="s2">
+        <h4 class="type-strong">Facebook</h4>
+        <div>Meta Actions</div>
+      </header>
+      <p class="type-secondary no-mar">Listing out meta actions as plain text links reduces visual friction of each post. Users know where to find actions, but can easily scan posts.</p>
+    </div>
+  </div>
+</div>
+
+        
       </div>
     
 
@@ -278,6 +259,85 @@
 Product Hunt's model of showing a single main call to action is worth exploring, though in our case we will need to mitigate having 2 primary call-to-actions. If we decide that these call-to-actions must be of equal prominence, it may be worth exploring Facebook's model of showing simple text links.<br><br>
 Regardless of which features are surfaced, I recommend burying all secondary features behind a click that will bring the user one level deeper into a navigation structure. See <a href='#instant_request_expanded'>Instant Request Expanded</a> for details. Furthermore, as discussed, I recommend removing the 'Menu' construct entirely, and moving all relevant pages into the main Instant Requests page.<br><br>
 I would recommend heavily against allowing users to mark songs to buy, or for any other reason. This feature is not part of the module's core feature set, and will add a level of complexity to each song row that will confuse the user experience.</p>
+    </div>
+  </div>
+</div>
+
+
+  
+
+  <div class="mod-interface">
+  <div class="js-sticky-title">
+    <h2 id="filtering" class="js-sticky-title-name">
+      Filtering
+      <ul class="js-sticky-actions type-body type-weight-normal">
+        <li>
+          <a class="js-sticky-to-top" title="Back to Contents" href="#contents"><i class="icon-list"></i><span>Contents</span></a>
+        </li>
+      </ul>
+    </h2>
+  </div>
+
+  <div class="l-tile-wrap mod-interface-section">
+    <div class="l-tile-2">
+      <div class="l-tile-content no-pad">
+        
+      </div>
+    </div>
+
+    <div class="l-tile-2">
+      <div class="l-tile-content">
+        <ul>
+          
+          <li class="s4 no-mar-last-child">
+
+          <h4>General Features</h4>
+
+          <ul class="type-secondary type-list">
+            
+            <li>
+            Sorting by random, number of spins, recently played
+            </li>
+            
+          </ul>
+          </li>
+          
+        </div>
+      </ul>
+    </div>
+  </div>
+
+  <div class="mod-interface-details">
+    
+      <div class="mod-interface-services mod-interface-section">
+        <h3>Relevant UX</h3>
+        
+        <div class="l-tile-wrap">
+  <div class="l-tile-2">
+    <div class="l-tile-content">
+      <div class="mod-service-img-wrap s2">
+        <img src="assets/img/product-screenshots/grooveshark-filters.png" />
+      </div>
+    </div>
+  </div>
+  <div class="l-tile-2">
+    <div class="l-tile-content">
+      <header class="s2">
+        <h4 class="type-strong">Grooveshark</h4>
+        <div>Sorting</div>
+      </header>
+      <p class="type-secondary no-mar">A simple, but elegant solution to sorting a list</p>
+    </div>
+  </div>
+</div>
+
+        
+      </div>
+    
+
+    <div class="mod-interface-section">
+      <h3>Analysis</h3>
+      <p class="type-secondary no-mar-bottom">This feature is fairly straight forward, but I am concerned with stations being able to customize the text of each filter. I would guess that certain copy performs better than other copy, and that we shouldn't be afraid to tell stations that we know what works best, something that will benefit everybody, assuming that it's been thoroughly tested. This applies to whitelabelling in general, but will certainly need to be discussed in more detail.</p>
     </div>
   </div>
 </div>
@@ -300,9 +360,11 @@ I would recommend heavily against allowing users to mark songs to buy, or for an
   <div class="l-tile-wrap mod-interface-section">
     <div class="l-tile-2">
       <div class="l-tile-content no-pad">
-        <div class="mod-interface-img-wrap">
-          <img src="assets/img/product-screenshots/ldr1-instant-requests-expanded.png" />
-        </div>
+        
+          <div class="mod-interface-img-wrap">
+            <img src="assets/img/product-screenshots/ldr1-instant-requests-expanded.png" />
+          </div>
+        
       </div>
     </div>
 
@@ -390,7 +452,7 @@ I would recommend heavily against allowing users to mark songs to buy, or for an
 
     <div class="mod-interface-section">
       <h3>Analysis</h3>
-      <p class="type-secondary no-mar-bottom">Because there is so much meta content for each song (related songs, suggest a song, twitter info, facebook info, buy link, iHR link, etc.), I think that it is wise to bury the majority of this content behind a click similar to the current product. However, exposing this content with an accordian menu creates an experience that is overloading with content and makes it difficult to focus on the content that you have just uncovered. Because the user has indicated an interest in this individual song or artist, I recommend giving them a view that removes all other data from the frame.<br><br>
+      <p class="type-secondary no-mar-bottom">Because there is so much meta content for each song (related songs, suggest a song, twitter info, facebook info, buy link, iHR link, etc.), I think that it is wise to bury the majority of this content behind a click similar to the current product. However, exposing this content with an accordian menu creates an experience that is overloaded with content and makes it difficult to focus on the content that you have just uncovered. Because the user has indicated an interest in this individual song or artist, I recommend giving them a view that removes all other data from the frame.<br><br>
 Using a hierarchical structure similar to the new Google Material Design specs might be an effective way to do this. In this way, we can show a new page with a larger area for the artist/song in question with related content beneath. Another benefit of this is that we can easily expose new actions on this screen without creating too much clutter.</p>
     </div>
   </div>
@@ -414,9 +476,11 @@ Using a hierarchical structure similar to the new Google Material Design specs m
   <div class="l-tile-wrap mod-interface-section">
     <div class="l-tile-2">
       <div class="l-tile-content no-pad">
-        <div class="mod-interface-img-wrap">
-          <img src="assets/img/product-screenshots/ldr1-instant-alerts.png" />
-        </div>
+        
+          <div class="mod-interface-img-wrap">
+            <img src="assets/img/product-screenshots/ldr1-instant-alerts.png" />
+          </div>
+        
       </div>
     </div>
 
@@ -511,9 +575,11 @@ Before we do make a decision about how to handle the number of times though, It 
   <div class="l-tile-wrap mod-interface-section">
     <div class="l-tile-2">
       <div class="l-tile-content no-pad">
-        <div class="mod-interface-img-wrap">
-          <img src="assets/img/product-screenshots/ldr1-voting.png" />
-        </div>
+        
+          <div class="mod-interface-img-wrap">
+            <img src="assets/img/product-screenshots/ldr1-voting.png" />
+          </div>
+        
       </div>
     </div>
 
@@ -581,7 +647,7 @@ Before we do make a decision about how to handle the number of times though, It 
 
     <div class="mod-interface-section">
       <h3>Analysis</h3>
-      <p class="type-secondary no-mar-bottom">The current implementation for voting takes the user away from the normal request list to a screen that often has as few as 3 songs to vote on, in which case we are left with excessive white space. Once they have voted, they have to manually switch back to the instant requests tab, which they likely will not do. Furthermore, the content within the voting tab is similar to requests both visually and in terms of content. To alleviate these problems, I recommend moving the voting tab into the request list and promoting it to the top<br><br>
+      <p class="type-secondary no-mar-bottom">The current implementation for voting takes the user away from the normal request list to a screen that often has as few as 3 songs to vote on, in which case we are left with excessive white space. Once they have voted, they have to manually switch back to the instant requests tab, which they likely will not do. Furthermore, the content within the voting tab is similar to requests both visually and in terms of content. To alleviate these problems, I recommend moving the voting tab into the request list and promoting it to the top.<br><br>
 In promoting voting to the top of the requests list, we uncomplicate the user experience, prevent there from ever being a null state, and avoid visual emptiness. As noted above with Polar, it might be worth exploring an option that differentiates voting from normal song requests. Because there is only 1 call-to-action associated with voting, it seems a prime target for a visually rich and uncomplicated implementation. In addition, it would help to distinguish the purpose of voting from requesting, something which is essential if we are to merge the features. </p>
     </div>
   </div>
@@ -605,9 +671,11 @@ In promoting voting to the top of the requests list, we uncomplicate the user ex
   <div class="l-tile-wrap mod-interface-section">
     <div class="l-tile-2">
       <div class="l-tile-content no-pad">
-        <div class="mod-interface-img-wrap">
-          <img src="assets/img/product-screenshots/ldr1-local.png" />
-        </div>
+        
+          <div class="mod-interface-img-wrap">
+            <img src="assets/img/product-screenshots/ldr1-local.png" />
+          </div>
+        
       </div>
     </div>
 
@@ -721,7 +789,7 @@ In promoting voting to the top of the requests list, we uncomplicate the user ex
 
     <div class="mod-interface-section">
       <h3>Analysis</h3>
-      <p class="type-secondary no-mar-bottom">Similar to voting session, all 3 of these features mimics normal song requests. As per our previous discussion, I would advise moving them all into the request list with a small flag to indicate the difference in content type. I would also recommend removing the play scrubber in favor of consistency with other songs.<br><br>
+      <p class="type-secondary no-mar-bottom">Similar to voting session, all 3 of these features mimics normal song requests. As per our previous discussion, I would advise moving them all into the request list with a small flag or icon to indicate the difference in content type. I would also recommend removing the play scrubber in favor of consistency with other songs.<br><br>
 The only new action in these screens is to submit local music for review. The above Facebook example is one way of elegantly exposing alternative content to users. The 'Upload Music' button could appear amongst the request list, which can help to break up the visual monotony of repeated content, as well as grab users attention. Of course, there can always be an action to dismiss it for users who are not musicians. Once dismissed, we can happily bury the feature knowing that it has at least been given its proper due.<br><br>
 It's going to be a little tricky providing functionality to add an unlimited number of featured music groups, each with a variable number of songs. The most obvious solution to this problem is to list them out like all other songs and to group them under a title. In this example, adding the option to 'x' out the group might help to let users get back to regular content quickly. Still, it feels a bit heavy handed. Another solution could be to put the group into a carousel that scrolls horizontally, which would help to reduce vertical space consumption. If we were to interject them psuedo randomly like the above facebook example, it might also help to mix up content.</p>
     </div>
@@ -746,9 +814,11 @@ It's going to be a little tricky providing functionality to add an unlimited num
   <div class="l-tile-wrap mod-interface-section">
     <div class="l-tile-2">
       <div class="l-tile-content no-pad">
-        <div class="mod-interface-img-wrap">
-          <img src="assets/img/product-screenshots/ldr1-contest.png" />
-        </div>
+        
+          <div class="mod-interface-img-wrap">
+            <img src="assets/img/product-screenshots/ldr1-contest.png" />
+          </div>
+        
       </div>
     </div>
 
@@ -810,9 +880,11 @@ It's going to be a little tricky providing functionality to add an unlimited num
   <div class="l-tile-wrap mod-interface-section">
     <div class="l-tile-2">
       <div class="l-tile-content no-pad">
-        <div class="mod-interface-img-wrap">
-          <img src="assets/img/product-screenshots/ldr1-now-playing.png" />
-        </div>
+        
+          <div class="mod-interface-img-wrap">
+            <img src="assets/img/product-screenshots/ldr1-now-playing.png" />
+          </div>
+        
       </div>
     </div>
 
@@ -928,9 +1000,11 @@ If we are going to show now playing information, a logical next step is to also 
   <div class="l-tile-wrap mod-interface-section">
     <div class="l-tile-2">
       <div class="l-tile-content no-pad">
-        <div class="mod-interface-img-wrap">
-          <img src="assets/img/product-screenshots/ldr1-suggest-a-song.png" />
-        </div>
+        
+          <div class="mod-interface-img-wrap">
+            <img src="assets/img/product-screenshots/ldr1-suggest-a-song.png" />
+          </div>
+        
       </div>
     </div>
 
@@ -984,9 +1058,11 @@ If we are going to show now playing information, a logical next step is to also 
   <div class="l-tile-wrap mod-interface-section">
     <div class="l-tile-2">
       <div class="l-tile-content no-pad">
-        <div class="mod-interface-img-wrap">
-          <img src="assets/img/product-screenshots/ldr1-social-sharing.png" />
-        </div>
+        
+          <div class="mod-interface-img-wrap">
+            <img src="assets/img/product-screenshots/ldr1-social-sharing.png" />
+          </div>
+        
       </div>
     </div>
 
@@ -1024,6 +1100,8 @@ Driving engagement with the module through social media is a powerful tactic, an
 </div>
 
 
+
+<a class="ui-btn" href="#contents">Back to Top</a>
 
   </div>
 </div>

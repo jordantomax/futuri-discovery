@@ -13,9 +13,11 @@
   <div class="l-tile-wrap mod-interface-section">
     <div class="l-tile-2">
       <div class="l-tile-content no-pad">
-        <div class="mod-interface-img-wrap">
-          <img src="assets/img/product-screenshots/{{ interface.img }}.png" />
-        </div>
+        {% if interface.img %}
+          <div class="mod-interface-img-wrap">
+            <img src="assets/img/product-screenshots/{{ interface.img }}.png" />
+          </div>
+        {% endif %}
       </div>
     </div>
 

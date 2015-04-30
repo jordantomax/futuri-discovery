@@ -4,7 +4,7 @@
   background-color: $color-link;
   color: $color-white;
   border: 0;
-  @include ui-btn-height($space*2);
+  @include ui-btn-height($space*8);
   padding: 0 1.5em;
   text-align: center;
   @include border-radius($ui-border-radius);

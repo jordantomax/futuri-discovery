@@ -5,9 +5,7 @@
   feature_sets:
     - name: General Features
       features:
-        - Sorting by random, number of spins, recently played
         - Search for songs and suggest them if not found
-        - Ability to mark songs from the stations list to buy.
 
     - name: Per Song Features
       features:
@@ -20,16 +18,6 @@
         - Target to iHeartRadio search results for artist name (hidden on non-iHR stations)
 
   services: 
-    - name: Grooveshark
-      img: grooveshark-filters
-      feature: Sorting
-      desc: A simple, but elegant solution to sorting a list 
-
-    - name: Facebook
-      img: facebook-post
-      feature: Meta Actions
-      desc: Listing out meta actions as plain text links reduces visual friction of each post. Users know where to find actions, but can easily scan posts.
-
     - name: Reddit
       img: reddit-post
       feature: Upvote/Downvote
@@ -39,6 +27,11 @@
       img: product-hunt-post
       feature: Upvote
       desc: Product Hunts draws inspiration from Reddit, but further simplifies its interface down to upvotes only, and removes ordering.
+    - name: Facebook
+      img: facebook-post
+      feature: Meta Actions
+      desc: Listing out meta actions as plain text links reduces visual friction of each post. Users know where to find actions, but can easily scan posts.
+
 
   analysis: "The most successful products simplify down to their core feature and make non core features less accessible. We have established that LDR1’s core features include upvoting and setting alerts, all else is secondary. <br><br>
   

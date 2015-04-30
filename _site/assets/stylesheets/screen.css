@@ -1410,8 +1410,8 @@ b, strong, .type-strong {
   background-color: #428bca;
   color: #fff;
   border: 0;
-  line-height: 1rem;
-  height: 1rem;
+  line-height: 4rem;
+  height: 4rem;
   padding: 0 1.5em;
   text-align: center;
   border-top-left-radius: 0.5rem;
