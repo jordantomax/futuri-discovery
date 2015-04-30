@@ -370,8 +370,8 @@ th {
     height: 0; }
 
 .l-tile-wrap {
-  margin-left: -2rem;
-  margin-bottom: -2rem;
+  margin-left: -3rem;
+  margin-bottom: -3rem;
   clear: both; }
   .l-tile-wrap:after {
     visibility: hidden;
@@ -382,8 +382,8 @@ th {
     height: 0; }
 
 .l-tile-content {
-  padding-left: 2rem;
-  padding-bottom: 2rem; }
+  padding-left: 3rem;
+  padding-bottom: 3rem; }
 
 @media only screen and (min-width: 40rem) {
   .l-tile-1 {
@@ -1480,7 +1480,7 @@ input[type="password"] {
   padding: 0.5rem 0; }
 
 .mod, .mod-white, .mod-notify, .mod-dropdown, .mod-dropdown-right {
-  padding: 2rem;
+  padding: 3rem;
   border-top-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
   border-bottom-left-radius: 0.5rem;
@@ -1611,14 +1611,19 @@ input[type="password"] {
   padding-bottom: 4rem;
   border-bottom: 1px solid #ddd; }
 
+@media only screen and (min-width: 40rem) {
+  .mod-interface-details {
+    padding-left: 5rem; } }
+
 .mod-interface-services {
   clear: both; }
 
 .mod-interface-section {
-  margin-bottom: 6rem; }
+  margin-bottom: 5rem; }
 
 .mod-interface-img-wrap {
-  border: 1px solid #ddd; }
+  border: 1px solid #ddd;
+  margin-bottom: 1rem; }
   .mod-interface-img-wrap img {
     display: block; }
 
@@ -1665,7 +1670,7 @@ input[type="password"] {
   padding-bottom: 0.5rem; }
 
 .g-header {
-  padding: 1rem 0;
+  padding: 1.5rem 0;
   background-color: #2a2a2a; }
 
 .g-header-logo {

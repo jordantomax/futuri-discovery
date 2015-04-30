@@ -5,7 +5,9 @@
 }
 
 .mod-interface-details {
-  // padding-left: $space*16;
+  @media #{$mq-sm} {
+    padding-left: $space*10;
+  }
 }
 
 .mod-interface-services {
@@ -13,11 +15,12 @@
 }
 
 .mod-interface-section {
-  margin-bottom: $space*12;
+  margin-bottom: $space*10;
 }
 
 .mod-interface-img-wrap {
   border: $border;
+  margin-bottom: $space*2;
 
   img {
     display: block;

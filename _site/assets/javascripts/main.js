@@ -25,7 +25,7 @@ $(function() {
 
     for (var i = 0; i < $wrapped.length; i++) {
       var titleOffset = $($wrapped.get(i)).offset().top;
-      if (titleOffset <= offset + 10) {
+      if (titleOffset <= offset + 20) {
         $activeTitle = $($wrapped.get(i));
       } else if (i == 0) {
         $activeTitle = false;
