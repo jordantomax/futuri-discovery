@@ -356,12 +356,12 @@ td,
 th {
   padding: 0; }
 
-.l-wrap {
+.l-wrap, .js-sticky-title-wrap.active .js-sticky-title-name {
   padding: 0 2rem;
   max-width: 100rem;
   margin: 0 auto;
   clear: both; }
-  .l-wrap:after {
+  .l-wrap:after, .js-sticky-title-wrap.active .js-sticky-title-name:after {
     visibility: hidden;
     display: block;
     font-size: 0;
@@ -385,13 +385,13 @@ th {
   padding-left: 2rem;
   padding-bottom: 2rem; }
 
-@media only screen and (min-width: 60rem) {
+@media only screen and (min-width: 40rem) {
   .l-tile-1 {
     float: left;
     width: 100%; }
     .l-tile-1:nth-child(2) {
       clear: both; } }
-@media only screen and (min-width: 60rem) {
+@media only screen and (min-width: 40rem) {
   .l-tile-2 {
     float: left;
     width: 50%; }
@@ -401,7 +401,7 @@ th {
   float: left;
   width: 50%; }
 
-@media only screen and (min-width: 60rem) {
+@media only screen and (min-width: 40rem) {
   .l-tile-3 {
     float: left;
     width: 33.33333%; }
@@ -415,7 +415,7 @@ th {
   float: left;
   width: 66.66667%; }
 
-@media only screen and (min-width: 60rem) {
+@media only screen and (min-width: 40rem) {
   .l-tile-4 {
     float: left;
     width: 25%; }
@@ -433,7 +433,7 @@ th {
   float: left;
   width: 75%; }
 
-@media only screen and (min-width: 60rem) {
+@media only screen and (min-width: 40rem) {
   .l-tile-5 {
     float: left;
     width: 20%; }
@@ -455,7 +455,7 @@ th {
   float: left;
   width: 80%; }
 
-@media only screen and (min-width: 60rem) {
+@media only screen and (min-width: 40rem) {
   .l-tile-6 {
     float: left;
     width: 16.66667%; }
@@ -481,7 +481,7 @@ th {
   float: left;
   width: 83.33333%; }
 
-@media only screen and (min-width: 60rem) {
+@media only screen and (min-width: 40rem) {
   .l-tile-7 {
     float: left;
     width: 14.28571%; }
@@ -511,7 +511,7 @@ th {
   float: left;
   width: 85.71429%; }
 
-@media only screen and (min-width: 60rem) {
+@media only screen and (min-width: 40rem) {
   .l-tile-8 {
     float: left;
     width: 12.5%; }
@@ -545,7 +545,7 @@ th {
   float: left;
   width: 87.5%; }
 
-@media only screen and (min-width: 60rem) {
+@media only screen and (min-width: 40rem) {
   .l-tile-9 {
     float: left;
     width: 11.11111%; }
@@ -583,7 +583,7 @@ th {
   float: left;
   width: 88.88889%; }
 
-@media only screen and (min-width: 60rem) {
+@media only screen and (min-width: 40rem) {
   .l-tile-10 {
     float: left;
     width: 10%; }
@@ -625,7 +625,7 @@ th {
   float: left;
   width: 90%; }
 
-@media only screen and (min-width: 60rem) {
+@media only screen and (min-width: 40rem) {
   .l-tile-11 {
     float: left;
     width: 9.09091%; }
@@ -671,7 +671,7 @@ th {
   float: left;
   width: 90.90909%; }
 
-@media only screen and (min-width: 60rem) {
+@media only screen and (min-width: 40rem) {
   .l-tile-12 {
     float: left;
     width: 8.33333%; }
@@ -721,7 +721,7 @@ th {
   float: left;
   width: 91.66667%; }
 
-@media only screen and (min-width: 60rem) {
+@media only screen and (min-width: 40rem) {
   .l-tile-13 {
     float: left;
     width: 7.69231%; }
@@ -775,7 +775,7 @@ th {
   float: left;
   width: 92.30769%; }
 
-@media only screen and (min-width: 60rem) {
+@media only screen and (min-width: 40rem) {
   .l-tile-14 {
     float: left;
     width: 7.14286%; }
@@ -833,7 +833,7 @@ th {
   float: left;
   width: 92.85714%; }
 
-@media only screen and (min-width: 60rem) {
+@media only screen and (min-width: 40rem) {
   .l-tile-15 {
     float: left;
     width: 6.66667%; }
@@ -895,7 +895,7 @@ th {
   float: left;
   width: 93.33333%; }
 
-@media only screen and (min-width: 60rem) {
+@media only screen and (min-width: 40rem) {
   .l-tile-16 {
     float: left;
     width: 6.25%; }
@@ -961,7 +961,7 @@ th {
   float: left;
   width: 93.75%; }
 
-@media only screen and (min-width: 60rem) {
+@media only screen and (min-width: 40rem) {
   .l-tile-17 {
     float: left;
     width: 5.88235%; }
@@ -1031,7 +1031,7 @@ th {
   float: left;
   width: 94.11765%; }
 
-@media only screen and (min-width: 60rem) {
+@media only screen and (min-width: 40rem) {
   .l-tile-18 {
     float: left;
     width: 5.55556%; }
@@ -1105,7 +1105,7 @@ th {
   float: left;
   width: 94.44444%; }
 
-@media only screen and (min-width: 60rem) {
+@media only screen and (min-width: 40rem) {
   .l-tile-19 {
     float: left;
     width: 5.26316%; }
@@ -1183,7 +1183,7 @@ th {
   float: left;
   width: 94.73684%; }
 
-@media only screen and (min-width: 60rem) {
+@media only screen and (min-width: 40rem) {
   .l-tile-20 {
     float: left;
     width: 5%; }
@@ -1373,6 +1373,10 @@ b, strong, .type-strong {
   font-size: 2.4rem;
   line-height: 1.2em; }
 
+.type-body {
+  font-size: 1.6rem;
+  line-height: 1.35em; }
+
 .type-secondary {
   color: #666; }
 
@@ -1522,6 +1526,34 @@ input[type="password"] {
 .no-mar-last-child:last-child {
   margin-bottom: 0 !important; }
 
+.js-sticky-title-wrap.active .js-sticky-title {
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  -webkit-box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.1);
+  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.1);
+  /* Firefox 3.5 - 3.6 */
+  box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.1);
+  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */ }
+.js-sticky-title-wrap.active .js-sticky-title-name {
+  font-size: 2.4rem;
+  line-height: 1.2em;
+  padding-top: 1rem;
+  padding-bottom: 1rem; }
+.js-sticky-title-wrap.active .js-sticky-actions {
+  display: block;
+  float: right; }
+  .js-sticky-title-wrap.active .js-sticky-actions a > * {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 0.5rem; }
+
+.js-sticky-actions {
+  display: none; }
+
 .mod-modal {
   display: none;
   position: fixed;
@@ -1575,15 +1607,15 @@ input[type="password"] {
     display: block; }
 
 .mod-interface {
-  margin-bottom: 4rem;
-  padding-bottom: 2rem;
+  margin-bottom: 8rem;
+  padding-bottom: 4rem;
   border-bottom: 1px solid #ddd; }
 
 .mod-interface-services {
   clear: both; }
 
 .mod-interface-section {
-  margin-bottom: 4rem; }
+  margin-bottom: 6rem; }
 
 .mod-interface-img-wrap {
   border: 1px solid #ddd; }
@@ -1633,9 +1665,12 @@ input[type="password"] {
   padding-bottom: 0.5rem; }
 
 .g-header {
-  padding: 2rem 0;
-  background-color: #2a2a2a;
-  color: #fff; }
+  padding: 1rem 0;
+  background-color: #2a2a2a; }
+
+.g-header-logo {
+  color: #fff;
+  text-transform: uppercase; }
 
 .g-sidebar li {
   margin-bottom: 0.5rem; }

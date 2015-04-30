@@ -1,5 +1,9 @@
 .g-header {
-  padding: $l-gutter 0;
+  padding: $l-gutter/2 0;
   background-color: $color-grey-dark;
+}
+
+.g-header-logo {
   color: $color-white;
+  text-transform: uppercase;
 }

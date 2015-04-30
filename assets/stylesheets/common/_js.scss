@@ -1,0 +1,36 @@
+.js-sticky-title-wrap {
+  &.active {
+    .js-sticky-title {
+      background-color: $color-white;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      @include box-shadow(0 0.1rem 0.3rem rgba($color-black, 0.1));
+    }
+
+    .js-sticky-title-name {
+      @extend .l-wrap;
+      @include type-size(large);
+      padding-top: $space*2;
+      padding-bottom: $space*2;
+    }
+
+    .js-sticky-actions {
+      display: block;
+      float: right;
+
+      a {
+        > * {
+          display: inline-block;
+          vertical-align: middle;
+          margin-left: $space;
+        }
+      }
+    }
+  }
+}
+
+.js-sticky-actions {
+  display: none;
+}

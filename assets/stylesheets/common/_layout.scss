@@ -17,7 +17,7 @@
 }
 
 @for $i from 1 to 21 {
-  @media #{$mq-med} {
+  @media #{$mq-sm} {
     .l-tile-#{$i} {
       float: left;
       width: 100%/$i;

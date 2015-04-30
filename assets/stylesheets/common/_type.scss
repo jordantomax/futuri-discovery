@@ -78,6 +78,10 @@ b, strong, .type-strong {
   @include type-size(large);
 }
 
+.type-body {
+  @include type-size(body);
+}
+
 .type-secondary {
   color: $color-type-secondary;
 }

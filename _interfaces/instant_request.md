@@ -44,5 +44,7 @@
   
   Product Hunt's model of showing a single main call to action is worth exploring, though in our case we will need to mitigate having 2 primary call-to-actions. If we decide that these call-to-actions must be of equal prominence, it may be worth exploring Facebook's model of showing simple text links.<br><br>
   
-  Regardless of which features are surfaced, I recommend burying all secondary features behind a click that will bring the user one level deeper into a navigation structure. See <a href='#instant_request_expanded'>Instant Request Expanded</a> for details. Furthermore, as discussed, I recommend removing the 'Menu' construct entirely, and moving all relevant pages into the main Instant Requests page. See <a href='#instant_request_tabbing'>Instant Request Tabbing</a> for more info."
+  Regardless of which features are surfaced, I recommend burying all secondary features behind a click that will bring the user one level deeper into a navigation structure. See <a href='#instant_request_expanded'>Instant Request Expanded</a> for details. Furthermore, as discussed, I recommend removing the 'Menu' construct entirely, and moving all relevant pages into the main Instant Requests page.<br><br>
+  
+  I would recommend heavily against allowing users to mark songs to buy, or for any other reason. This feature is not part of the module's core feature set, and will add a level of complexity to each song row that will confuse the user experience."
 ---

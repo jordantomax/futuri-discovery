@@ -1,7 +1,14 @@
 <div class="mod-interface">
-  <h2 id="{{interface_url_name}}" class="">{{ interface.name }}</h2>
-
-  <h3>Product & Features</h3>
+  <div class="js-sticky-title">
+    <h2 id="{{interface_url_name}}" class="js-sticky-title-name">
+      {{ interface.name }}
+      <ul class="js-sticky-actions type-body type-weight-normal">
+        <li>
+          <a class="js-sticky-to-top" title="Back to Contents" href="#contents"><i class="icon-list"></i><span>Contents</span></a>
+        </li>
+      </ul>
+    </h2>
+  </div>
 
   <div class="l-tile-wrap mod-interface-section">
     <div class="l-tile-2">
@@ -37,7 +44,7 @@
   <div class="mod-interface-details">
     {% if interface.services %}
       <div class="mod-interface-services mod-interface-section">
-        <h3>Relevant Services</h3>
+        <h3>Relevant UX</h3>
         {% for service in interface.services %}
         {% include service.html %}
         {% endfor %}
