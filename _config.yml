@@ -1,6 +1,6 @@
 name: "Futuri LDR1 Discovery"
 description: ""
-url: "/futuri-ldr1-discovery"
+url: "http://futuri-discovery.tigerking.nyc"
 sass:
     sass_dir: assets/stylesheets/
 exclude: ['Gruntfile.js', 'node_modules', 'package.json']
