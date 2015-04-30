@@ -1,0 +1,17 @@
+.g-sidebar {
+  li {
+    margin-bottom: $space;
+  }
+
+  a {
+    font-weight: bold;
+  }
+}
+
+.g-sidebar-profile-configure {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 2rem;
+  line-height: 1em;
+  margin-left: $space;
+}

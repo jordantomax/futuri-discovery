@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+  background-color: $background;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
+}
+
+p {
+  margin-top: 0;
+  a {
+    display: inline;
+  }
+}
+
+#{$el-headers} {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin-left: 0;
+  margin-bottom: $space;
+}
+

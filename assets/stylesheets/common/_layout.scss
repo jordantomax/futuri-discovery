@@ -1,0 +1,37 @@
+.l-wrap {
+  padding: 0 $space*4;
+  max-width: $l-max-width;
+  margin: 0 auto;
+  @include clearfix();
+}
+
+.l-tile-wrap {
+  margin-left: -#{$l-gutter};
+  margin-bottom: -#{$l-gutter};
+  @include clearfix();
+}
+
+.l-tile-content {
+  padding-left: $l-gutter;
+  padding-bottom: $l-gutter;
+}
+
+@for $i from 1 to 21 {
+  @media #{$mq-med} {
+    .l-tile-#{$i} {
+      float: left;
+      width: 100%/$i;
+
+      &:nth-child(#{$i + 1}) {
+        clear: both;
+      }
+    }
+  }
+
+  @for $j from 1 to $i {
+    .l-tile-#{$j}-of-#{$i} {
+      float: left;
+      width: (100%/$i)*$j;
+    }
+  }
+}

@@ -1,0 +1,45 @@
+@mixin type-size($name) {
+  $map-entry: map-get($type-sizes, $name);
+
+  font-size: (nth($map-entry, 1) / $type-base-font-size) + rem;
+  line-height: nth($map-entry, 2) + em;
+}
+
+@mixin clearfix() {
+  clear: both;
+
+  &:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+}
+
+@mixin ui-btn-height($height) {
+  line-height: $height;
+  height: $height;
+}
+
+@mixin border-radius($value) {
+  @include border-top-radius($value);
+  @include border-bottom-radius($value);
+}
+
+@mixin box-shadow($values) {
+ -webkit-box-shadow: $values;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:   $values;  /* Firefox 3.5 - 3.6 */
+  box-shadow:        $values;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
+@mixin ui-box-shadow() {
+  // @include box-shadow(0 0.1rem 0.2rem rgba($color-black, 0.3));
+}
+
+@mixin dim($width, $height: $width) {
+  width: $width;
+  height: $height;
+}
+

@@ -1,0 +1,91 @@
+html {
+  font-size: $type-base-font-size + $type-base-font-unit;
+}
+
+body {
+  @include type-size(body);
+}
+
+body, input, button, select, textarea {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: $color-type;
+  font-family: $type-font-family;
+  font-weight: $type-weight-normal;
+}
+
+a {
+  color: $color-link;
+  @include transition();
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+  p {
+    color: $color-type;
+  }
+}
+
+
+#{$el-headers} {
+  margin-bottom: 0.25em;
+}
+
+h1 {
+  @include type-size(huge);
+}
+
+h2 {
+  @include type-size(xlarge);
+  margin-bottom: $space*6;
+}
+
+h3 {
+  @include type-size(large);
+  margin-bottom: $space*4;
+}
+
+h4 {
+  @include type-size(big);
+}
+
+h5 {
+  @include type-size(body);
+}
+
+b, strong, .type-strong {
+  font-weight: bold;
+}
+
+.type-center {
+  text-align: center;
+}
+
+.type-right {
+  text-align: right;
+}
+
+.type-weight-normal {
+  font-weight: normal;
+}
+
+.type-small {
+  @include type-size(small);
+}
+
+.type-large {
+  @include type-size(large);
+}
+
+.type-secondary {
+  color: $color-type-secondary;
+}
+
+.type-list {
+  padding-left: $space*6;
+
+  li {
+    list-style: disc;
+  }
+}

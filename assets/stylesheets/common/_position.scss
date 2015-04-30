@@ -1,0 +1,15 @@
+.pos-clearfix {
+  @include clearfix();
+}
+
+.pos-stretch {
+  width: 100%;
+}
+
+.pos-left {
+  float: left;
+}
+
+.pos-right {
+  float: right;
+}

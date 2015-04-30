@@ -1,0 +1,13 @@
+name: "Futuri LDR1 Discovery"
+description: ""
+url: "/futuri-ldr1-discovery"
+sass:
+    sass_dir: assets/stylesheets/
+exclude: ['Gruntfile.js', 'node_modules', 'package.json']
+gems:
+  - jekyll-redirect-from
+collections:
+  instant_request_services:
+    output: true
+  interfaces:
+    output: true

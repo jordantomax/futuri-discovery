@@ -1,0 +1,52 @@
+<div class="mod-interface">
+  <h2 id="{{interface_url_name}}" class="">{{ interface.name }}</h2>
+
+  <h3>Product & Features</h3>
+
+  <div class="l-tile-wrap mod-interface-section">
+    <div class="l-tile-2">
+      <div class="l-tile-content no-pad">
+        <div class="mod-interface-img-wrap">
+          <img src="assets/img/product-screenshots/{{ interface.img }}.png" />
+        </div>
+      </div>
+    </div>
+
+    <div class="l-tile-2">
+      <div class="l-tile-content">
+        <ul>
+          {% for feature_set in interface.feature_sets %}
+          <li class="s4 no-mar-last-child">
+
+          <h4>{{feature_set.name}}</h4>
+
+          <ul class="type-secondary type-list">
+            {% for feature in feature_set.features %}
+            <li>
+            {{feature}}
+            </li>
+            {% endfor %}
+          </ul>
+          </li>
+          {% endfor %}
+        </div>
+      </ul>
+    </div>
+  </div>
+
+  <div class="mod-interface-details">
+    {% if interface.services %}
+      <div class="mod-interface-services mod-interface-section">
+        <h3>Relevant Services</h3>
+        {% for service in interface.services %}
+        {% include service.html %}
+        {% endfor %}
+      </div>
+    {% endif %}
+
+    <div class="mod-interface-section">
+      <h3>Analysis</h3>
+      <p class="type-secondary no-mar-bottom">{{ interface.analysis }}</p>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,13 @@
+.g-nav {
+  background-color: $color-white;
+  border-bottom: $border;
+
+  li {
+    display: inline-block;
+    margin-right: $space;
+  }
+
+  a {
+    line-height: $g-header-height;
+  }
+}

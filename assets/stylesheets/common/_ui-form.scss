@@ -1,0 +1,45 @@
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: $space/2;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  padding: $space/2;
+  height: $ui-height;
+  line-height: $ui-height;
+  @include border-radius($ui-border-radius);
+  border: $border;
+
+  &:focus {
+    outline: 0;
+  }
+
+  &.ui-form-input-large {
+    height: $ui-height-large;
+    line-height: $ui-height-large;
+  }
+}
+
+.ui-form-pair {
+  margin-bottom: $space*2;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.ui-form-input-link {
+  text-align: right;
+  @include type-size(small);
+  padding: $space/2 0;
+  display: inline-block;
+}
+
+.ui-form-checkbox-label {
+  input {
+    margin-right: $space/2;
+  }
+}

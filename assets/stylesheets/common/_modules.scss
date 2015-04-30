@@ -1,0 +1,11 @@
+.mod {
+  padding: $l-gutter;
+  @include border-radius($ui-border-radius);
+  background-color: $color-grey-xlight;
+}
+
+.mod-white {
+  @extend .mod;
+  background-color: $color-white;
+}
+

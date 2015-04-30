@@ -1,0 +1,25 @@
+.mod-interface {
+  margin-bottom: $space*8;
+  padding-bottom: $space*4;
+  border-bottom: $border;
+}
+
+.mod-interface-details {
+  // padding-left: $space*16;
+}
+
+.mod-interface-services {
+  clear: both;
+}
+
+.mod-interface-section {
+  margin-bottom: $space*8;
+}
+
+.mod-interface-img-wrap {
+  border: $border;
+
+  img {
+    display: block;
+  }
+}

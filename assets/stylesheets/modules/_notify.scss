@@ -1,0 +1,26 @@
+.mod-notify {
+  position: fixed;
+  background-color: $color-white;
+  top: 2rem;
+  left: 0;
+  text-align: center;
+  @extend .mod-white;
+  padding-right: $space*4;
+
+  @media #{$mq-med} {
+    width: $mod-notify-width;
+    margin-left: -#{$mod-notify-width/2};
+    left: 50%;
+  }
+
+  a {
+    display: inline;
+  }
+}
+
+.mod-notify-close {
+  position: absolute;
+  top: $space;
+  right: $space;
+  font-size: 2.5rem;
+}
